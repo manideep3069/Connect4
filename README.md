@@ -24,15 +24,6 @@ The code works by representing the game state using a 6x7 game board and maintai
 
 The game board is updated with each move, and the checkconnect function is used to determine if a winning move is made in a specific column. The position scores are stored in a hash table to avoid recomputing them for already visited positions.
 
- 1 2 3 4 5 6 7
-
- O O O O O O O
- O O O O O O O
- O O O O O O O
- O O O O O O O
- O O O O O O O
- O O O O O O O
-
 
 # Pros of Logic
 The code uses a well-known and effective algorithm, the minimax algorithm with alpha-beta pruning, to determine the best move for the computer player.
