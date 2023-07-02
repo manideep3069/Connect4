@@ -1,6 +1,6 @@
 # Connect4-A game using AI 
 # Introduction
-Connect Four is a classic two-player game where the objective is to be the first to form a horizontal, vertical, or diagonal line of four discs of your own color. This code implements the Connect Four game using C++ and the minimax algorithm with alpha-beta pruning.
+Connect Four is a classic two-player game where the objective is to be the first to form a horizontal, vertical, or diagonal line of four discs of your own color. This code implements the Connect Four game using C++ and the minimax algorithm with alpha-beta pruning. The total number of positions possible is 4,531,985,219,092- which is approximately 45 trillion! Using alpha-beta pruning, AI reduces the number of moves it wants to play to maximize its win.
 
 In this README, we will explore the logic behind the code, how it works, the pros and cons of the logic used, suggestions for improvement, and conclude with a summary.
 
